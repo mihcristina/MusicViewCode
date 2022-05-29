@@ -15,6 +15,10 @@
 		6885A20528442B9D004F6073 /* MusicViewCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6885A20428442B9D004F6073 /* MusicViewCodeTests.swift */; };
 		6885A20F28442B9D004F6073 /* MusicViewCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6885A20E28442B9D004F6073 /* MusicViewCodeUITests.swift */; };
 		6885A21128442B9D004F6073 /* MusicViewCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6885A21028442B9D004F6073 /* MusicViewCodeUITestsLaunchTests.swift */; };
+		6885A22128442FBC004F6073 /* NSAttributedString + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6885A21E28442FBC004F6073 /* NSAttributedString + Extension.swift */; };
+		6885A22228442FBC004F6073 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6885A21F28442FBC004F6073 /* UIView + Extension.swift */; };
+		6885A22328442FBC004F6073 /* NSTextAttachment + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6885A22028442FBC004F6073 /* NSTextAttachment + Extension.swift */; };
+		6885A22628442FD0004F6073 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6885A22528442FD0004F6073 /* CardViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		6885A20A28442B9D004F6073 /* MusicViewCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicViewCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6885A20E28442B9D004F6073 /* MusicViewCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewCodeUITests.swift; sourceTree = "<group>"; };
 		6885A21028442B9D004F6073 /* MusicViewCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6885A21E28442FBC004F6073 /* NSAttributedString + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString + Extension.swift"; sourceTree = "<group>"; };
+		6885A21F28442FBC004F6073 /* UIView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		6885A22028442FBC004F6073 /* NSTextAttachment + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTextAttachment + Extension.swift"; sourceTree = "<group>"; };
+		6885A22528442FD0004F6073 /* CardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,8 @@
 		6885A1EC28442B9B004F6073 /* MusicViewCode */ = {
 			isa = PBXGroup;
 			children = (
+				6885A22428442FD0004F6073 /* Model */,
+				6885A21D28442FBC004F6073 /* Extension */,
 				6885A1ED28442B9B004F6073 /* AppDelegate.swift */,
 				6885A1EF28442B9B004F6073 /* SceneDelegate.swift */,
 				6885A1F128442B9B004F6073 /* HomeViewController.swift */,
@@ -122,6 +132,24 @@
 				6885A21028442B9D004F6073 /* MusicViewCodeUITestsLaunchTests.swift */,
 			);
 			path = MusicViewCodeUITests;
+			sourceTree = "<group>";
+		};
+		6885A21D28442FBC004F6073 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6885A21E28442FBC004F6073 /* NSAttributedString + Extension.swift */,
+				6885A21F28442FBC004F6073 /* UIView + Extension.swift */,
+				6885A22028442FBC004F6073 /* NSTextAttachment + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6885A22428442FD0004F6073 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6885A22528442FD0004F6073 /* CardViewModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +284,11 @@
 			files = (
 				6885A1F228442B9B004F6073 /* HomeViewController.swift in Sources */,
 				6885A1EE28442B9B004F6073 /* AppDelegate.swift in Sources */,
+				6885A22328442FBC004F6073 /* NSTextAttachment + Extension.swift in Sources */,
 				6885A1F028442B9B004F6073 /* SceneDelegate.swift in Sources */,
+				6885A22228442FBC004F6073 /* UIView + Extension.swift in Sources */,
+				6885A22128442FBC004F6073 /* NSAttributedString + Extension.swift in Sources */,
+				6885A22628442FD0004F6073 /* CardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
