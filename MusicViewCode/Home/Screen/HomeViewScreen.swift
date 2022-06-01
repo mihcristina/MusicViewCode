@@ -15,6 +15,7 @@ class HomeViewScreen: UIView {
         table.tableFooterView = UIView()
         table.showsVerticalScrollIndicator = false
         table.translatesAutoresizingMaskIntoConstraints = false
+        table.register(CardViewTableViewCell.self, forCellReuseIdentifier: CardViewTableViewCell.identifier)
         return table
     }()
     
